@@ -1,0 +1,42 @@
+@font-face {
+	font-family: Godfather;
+	src: url(./assets/fonts/TheGodfather-v2.ttf);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+:root {
+	--mint-green: #bee9e8ff;
+	--moonstone: #62b6cbff;
+	--indigo-dye: #1b4965ff;
+	--columbia-blue: #cae9ffff;
+	--picton-blue: #5fa8d3ff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+
+h1 {
+	text-align: center;
+	font-family: Godfather;
+	font-size: 8vw;
+	font-weight: 300;
+	letter-spacing: 0.5vw;
+	color: var(--columbia-blue);
+}
+
+h2 {
+	font-size: 2vw;
+}
+
+h3 {
+	font-size: 1.4vw;
+	margin-bottom: 0.5vh;
+}

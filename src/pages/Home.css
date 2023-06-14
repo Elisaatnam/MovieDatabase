@@ -1,0 +1,38 @@
+.wrapper {
+	padding: 2vh 2.5vw;
+	background-color: #1b4965dc;
+	min-height: 100vh;
+}
+
+.movie-section {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.functionality {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2vh;
+}
+
+button,
+input {
+	margin-right: 0.5vw;
+	padding: 0.75vh;
+	background-color: var(--moonstone);
+	border: none;
+	font-size: 1vw;
+	font-weight: 700;
+	border-radius: 0.5vh;
+}
+
+.search-div {
+	display: flex;
+	align-items: center;
+}
+
+.lupe {
+	height: 4vh;
+	width: auto;
+}

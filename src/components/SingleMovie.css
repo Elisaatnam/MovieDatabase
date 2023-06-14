@@ -1,0 +1,22 @@
+article {
+	padding: 4vh 1vw;
+	border-radius: 1vh;
+	height: 45vh;
+	background-color: var(--picton-blue);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	transition: 0.4s;
+}
+
+article:hover {
+	transform: scale(1.05);
+	background-color: var(--indigo-dye);
+	color: var(--columbia-blue);
+}
+
+.genre {
+	font-style: italic;
+}
